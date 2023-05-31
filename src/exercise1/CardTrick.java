@@ -26,6 +26,7 @@ public class CardTrick {
         while (true) {
             if (searchCard(userCard)) {
                 System.out.println("The card matches.");
+		   printInfo();
                 break;
             } else {
                 System.out.println("No match found.");
@@ -63,6 +64,7 @@ public class CardTrick {
         for (Card c : hand) {
             if (c.equals(card)) {
                 return true;
+		    
             }
         }
         return false;
@@ -70,6 +72,7 @@ public class CardTrick {
         public static void main(String[] args) {
         CardTrick trick = new CardTrick();
         trick.startGame();
+	
     }
 
      // @author Mykyta Varnikov May 2023
@@ -77,10 +80,8 @@ public class CardTrick {
     private static void printInfo() {
     
         System.out.println("Congratulations, you guessed right!");
-        System.out.println();
         
         System.out.println("My name is Mykyta, but you can call me Mike");
-        System.out.println();
         
         System.out.println("My career ambitions:");
         System.out.println("-- Stop procrastinating");
