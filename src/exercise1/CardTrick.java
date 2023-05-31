@@ -74,9 +74,9 @@ public class CardTrick {
         trick.startGame();
 	
     }
-
+    //if cards doesn't match a lot of times, kee[p going, the code is working, when you guessed right, info will be displayed.
      // @author Mykyta Varnikov May 2023
-     
+     //I'm done.
     private static void printInfo() {
     
         System.out.println("Congratulations, you guessed right!");
