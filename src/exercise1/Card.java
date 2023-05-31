@@ -5,8 +5,8 @@ import java.util.Arrays;
  
 public class Card {
 
-  public static int rank;
-   public static String suit;
+  public  int rank;
+   public String suit;
 
    public Card(int rank, String suit){
        this.rank=rank;
